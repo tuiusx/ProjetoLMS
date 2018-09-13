@@ -10,15 +10,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-<<<<<<< HEAD
     width: 544px;
     background-color: #424242;
-=======
-<<<<<<< HEAD
-    background-color: #1e90ff;
-=======
-    background-color: #1E90FF;
->>>>>>> 46496f53b4459b0b4f44ebc31c91a18d0cdef8b4
+
 }
 .botao{
      list-style-type: none;
@@ -29,7 +23,7 @@ ul {
     height: 60px;
     background-color: #1E90FF;
 
->>>>>>> da85d3ff7ac75e67f54e5420ddaab90b42d97a43
+
 }
 
 li {
