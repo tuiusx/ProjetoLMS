@@ -1,3 +1,16 @@
 body{
     background-color: black;
 }
+#wrapper{
+    overflow: auto;
+}
+#leftsidebar{
+    float: none;
+    width: auto;
+
+}
+#menulist{
+    margin: 0;
+    padding: 0;
+
+}
