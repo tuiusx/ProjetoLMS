@@ -11,6 +11,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+<<<<<<< HEAD
+    background-color: #1e90ff;
+=======
     background-color: #1E90FF;
 }
 .botao{
@@ -22,6 +25,7 @@ ul {
     height: 60px;
     background-color: #1E90FF;
 
+>>>>>>> da85d3ff7ac75e67f54e5420ddaab90b42d97a43
 }
 
 li {
