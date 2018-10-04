@@ -2,7 +2,11 @@ body{
     background-color: black;
 }
 
+<<<<<<< HEAD
 h1,h2,h3,h4,h5,h6,dd{
+=======
+h1,h2,h3,h4,h5,h6,dt,dd{
+>>>>>>> ca4352d46b963f6a7d8231b2aa16bba293010d11
 	color: white;
 }
 ul,dt {
