@@ -53,3 +53,6 @@ li a:hover {
     min-width: 30%; 
 	min-height: 30%;
 }
+.text{
+    text-align: auto;
+}
