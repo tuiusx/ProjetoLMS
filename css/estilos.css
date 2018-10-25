@@ -79,7 +79,43 @@ li a:hover {
     height: 400px;
    }
 .video1{
+
     width: 600px;  
     min-width: 30%; 
 	min-height: 30%;
+
+    width: 600px; 
 }
+
+
+.botao1 {    font-family: verdana, arial, sans-serif; 
+    font-size: 20pt; 
+    font-weight: bold; 
+    padding: 4px; 
+    background-color: blue; 
+    color: white; 
+    text-decoration: none; 
+ } 
+
+ .botao1:hover { 
+     border-bottom: 2px solid white; 
+    border-top: 3px solid rgb(11, 11, 94); 
+    border-right: 2px solid white; 
+    border-left: 3px solid rgb(11, 11, 94); 
+ } 
+.espaco{
+    padding: 200px;
+}
+.img1{
+	max-width:100%;
+	height:auto;
+}
+
+.texto{
+    position: absolute;
+    margin-top: -40px;
+}
+.text{
+    text-align: auto;
+}
+
