@@ -2,25 +2,29 @@ body{
     background-color:black;
       
    }
+/*imagem em baixo do texto*/
 .img1{
     position: relative;
     width: 100%;
 }
-
+/*cor de fundo do texto*/
 .fundo{
     background-color:blue;
 
 }
+/*cor de fundo do texto*/
 .fundo2{
     background-color:white;
 }
-
+/*Texto em negrito*/
 .negrito{
     font-weight: bold;
 }
+/*mudando cor do texto*/
 .color{
     color:black;
 }
+/*texto em cima da imagem*/
 .hb{
     position: absolute; 
     top: 50px; 
