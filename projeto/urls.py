@@ -24,5 +24,5 @@ urlpatterns = [
     path('', listadecurso),
     path('', login),
     path('', noticia),
-    path('', admin.site.urls),
+    path('admin/', admin.site.urls),
 ]
