@@ -1,6 +1,8 @@
 body{
     background-color:black;
-      
+    background-image: url("../midia/vvcc.jpg");
+    background-position: center;
+}
    }
 /*imagem em baixo do texto*/
 .img1{
@@ -147,3 +149,20 @@ li a:hover {
     text-align: center;
 }
 
+td, th {
+    padding: 100px;
+    margin: 0;
+    /*border: 1px solid #ccc;*/
+    text-align: center;
+  }
+
+.botao{
+    background-color:  transparent;
+    background-repeat: no-repeat;
+    border:none;
+    color:orangered;
+    font-family: 'Baloo Bhaijaan', cursive;
+    width: 540px;
+    font-size: 200%;
+    
+}
