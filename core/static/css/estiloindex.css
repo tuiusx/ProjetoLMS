@@ -32,3 +32,19 @@
    }
 .it2 {
     color: rgb(53, 53, 231);}
+
+.botao1 {    font-family: verdana, arial, sans-serif; 
+        font-size: 20pt; 
+        font-weight: bold; 
+        padding: 4px; 
+        background-color: rgb(32, 32, 41); 
+        color: white; 
+        text-decoration: none; 
+     } 
+    
+.botao1:hover { 
+         border-bottom: 2px solid white; 
+        border-top: 3px solid rgb(89, 89, 100); 
+        border-right: 2px solid white; 
+        border-left: 3px solid rgb(89, 89, 100); 
+     } 
