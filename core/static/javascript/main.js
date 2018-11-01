@@ -26,3 +26,5 @@ muda[0].onclick = function(){
         imagem[0].setAttribute('src','imagens/gif2.gif');
     }
 }
+
+
