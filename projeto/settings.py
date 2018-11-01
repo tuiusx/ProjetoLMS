@@ -25,7 +25,7 @@ SECRET_KEY = 'k8km$%!&f&d-@p@mwcbx3=g)@nqm^_18sd)rl(f^6pix#5q24s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [https://lms-1.azurewebsites.net]
 
 
 # Application definition
