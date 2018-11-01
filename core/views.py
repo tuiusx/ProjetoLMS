@@ -2,8 +2,11 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return render(request, "index.html")
-    
+    context{
+        
+    }
+    return render(request, "index.html", context)
+
 def detalhe_curso(request):
     return render(request, "detalhe_curso.html")
 

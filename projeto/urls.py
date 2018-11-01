@@ -19,7 +19,7 @@ from core.views import *
 
 urlpatterns = [
     path('', index),
-    path('detalhe_cuso.html', detalhe_curso),
+    path('detalhe_curso.html', detalhe_curso),
     path('disciplina.html', disciplina),
     path('listadecurso.html', listadecurso),
     path('login.html', login),
