@@ -222,7 +222,7 @@ td, th {
     font-family: 'Baloo Bhaijaan', cursive;
     width: 540px;
     font-size: 200%;
-<<<<<<< HEAD
+
 }
 
 #formulario{
@@ -240,8 +240,8 @@ td, th {
     position: relative;
     width:50vw;
     height: 50vh;*/
-    margin: auto;
-    width: 50%;
+    margin: 0px auto;
+    width: 30%;
     color: white;
     text-align: center;
     border-color: gold;
@@ -249,9 +249,6 @@ td, th {
 
 .div1{
     position: relative;
-=======
-    
-<<<<<<< HEAD
 }
 
 #botao5{
@@ -283,8 +280,4 @@ td, th {
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Monoton', cursive;
     font-family: 'Audiowide', cursive;
-=======
-
->>>>>>> 6824d28288433252a2620b3981c687e508e99a20
->>>>>>> 5daaeceb2e323d059e532e1d17604c9fe243fb57
 }

@@ -27,4 +27,11 @@ muda[0].onclick = function(){
     }
 }
 
+function mouseDown() {
+    document.getElementsByClassName("botaoapertar").style.color = "red";
+}
+
+function mouseUp() {
+    document.getElementsByClassName("botaoapertar").style.color = "green";
+}
 
