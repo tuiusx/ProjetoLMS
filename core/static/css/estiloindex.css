@@ -1,7 +1,15 @@
+body{
+
+    background-color:black;
+    background-image: url("../midia/vvcc.jpg");
+    background-position:top;
+    background-repeat: no-repeat;
+}
+
 #menu ul {
     padding:0px;
     margin:0px;
-    background-color:#EDEDED;
+    background-color:rgb(122, 122, 126);
     list-style:none;
 }
 
@@ -9,14 +17,14 @@
 #menu ul li a {
     padding: 2px 10px;
     display: inline-block;
-    background-color:#EDEDED;
-    color: #333;
+    background-color:rgb(122, 122, 126);
+    color: white;
     text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+    border-bottom:3px solid white;
 }
 #menu ul li a:hover {
-    background-color:#D6D6D6;
-    color: #6D6D6D;
+    background-color:rgb(45, 23, 243);
+    color:rgb(150, 146, 146);
     border-bottom:3px solid rgb(26, 1, 167);
 }
 .img1{
@@ -31,7 +39,10 @@
     height: 400px;
    }
 .it2 {
-    color: rgb(53, 53, 231);}
+    color: rgb(114, 179, 233);}
+
+    .it3 {
+    color: white;}
 
 .botao1 {     
     font-family: verdana, arial, sans-serif; 
