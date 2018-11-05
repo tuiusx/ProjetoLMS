@@ -178,6 +178,11 @@ li a:hover {
     color: white;
     text-align: center;
     border-color: gold;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+   
 }
 
 .fieldset2{
@@ -280,4 +285,9 @@ td, th {
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Monoton', cursive;
     font-family: 'Audiowide', cursive;
+    
+}
+
+#textopadrao{
+    font-family: 'Source Sans Pro', sans-serif;
 }
