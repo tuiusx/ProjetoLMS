@@ -44,7 +44,7 @@ body{
     left: 0; 
     width: 100%; 
 }
-h1, h2, h3, h4, h5, h6, dd{
+h1, h2, h3, h4, h5, h6, dd, p ,strong{
     color: white;
 
 
@@ -296,4 +296,9 @@ td, th {
 .teste{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
+}
+
+.cord1{
+    margin-left: 800px;
+    margin-top: -500px;
 }
