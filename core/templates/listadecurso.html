@@ -4,9 +4,10 @@
     
     <meta charset="utf-8">
     <title>Lista de Cursos</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Audiowide|Fjalla+One|Monoton" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../static/css/estilos.css">
     <link rel="shortcut icon" href="../static/midia/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
     
 </head>
@@ -14,29 +15,55 @@
 <body>
     
    <table> 
-    <img src="../static/midia/faculdade-impacta.png" width="30%" height="30%"><br><br><br>  
+    <a href="index.html" target=""><img src="../static/midia/faculdade-impacta.png" style="float:left;" width="20%" height="20%"></a><br><br><br><br><br><br><br>
+     
+
  
     <div class="inicio_lista">
             <center><img src="../static/midia/vestibular-2019.png" width="35%" height="35%"></center>
         </div>
-        <center><button class="botao"><strong>Conheça nossos cursos</strong></button></center>
-    
-    
+        <center><button id="botao4"><strong>Conheça nossos cursos</strong></button></center>
+        <type='background' img src="../static//midia/vvcc.jpg" width="30%" height="30%">
+
+    <center><h1 class="letras1">POR QUE A IMPACTA REVOLUCIONA O SEU FUTURO?</h1></center><br>
+        <center><h3 id="textopadrao">'Há 30 anos no mercado, a Faculdade Impacta tem alto nível de empregabilidade nas maiores empresas do País.<br>
+            Segundo pesquisa realizada pelo LinkedIn, a Instituição possui 98,2% de contratação no segundo semestre do curso.'</h3><br></center>
+<h1 id='letrapadrao'>Bacharelado</h1>
+
     <tr> 
-    <td><img src="../static/midia/ads.png" width="90" height="90" ><h3>Análise e Desenvolvimento de Sistemas</h3></td>
-    <td><img src="../static/midia/sistemas.png" width="100" height="100"><h3>Sistemas Da Informação</h3></td>
-    <td><img src="../static/midia/banco_de_dados.png" width="100" height="100"><h3>Banco De Dados</h3></td>    
+        <form action="Administracao.html" method="POST">
+            <td><button id="botao5"><h3 id='letrapadrao' type="submit">Administração</button></h3></td></form>
+        <form action="sistemas.html" method="POST">
+            <td><button id="botao5"><h3 id='letrapadrao'>Sistemas Da Informação</button></h3></td></form>
+        <form action="engrenharia_computacao.html" method="POST">
+            <td><button id="botao5"><h3 id='letrapadrao'>Engenharia da Computação</button></h3></td></form>
+    </tr>
+</table>
+
+<h1 id='letrapadrao'>Tecnólogo</h1>
+
+<table>
+
+    <tr> 
+        <form action="Ads_detalhe.html" method="POST">
+            <td><button id="botao5"><h3 id='letrapadrao'>Análise e Desenvolvimento de Sistemas</button></h3></td></form>
+        <form action="processos_gerenciais.html" method="POST">
+            <td><button id="botao5"><h3 id='letrapadrao'>Processos Gerenciais</button></h3></td></form>
+        <form action="bando_dados_detalhe.html" method="POST">
+            <td><button id="botao5"><h3 id='letrapadrao'>Banco De Dados</button></h3></td></form>
     </tr>
 
-    <tr>       
-    <td><img src="../static/midia/jogos_digitais.png" width="100" height="100"><h3>Jogos Digitais</h3></td>
-    <td><img src="../static/midia/adm.png" width="100" height="100"><h3>Administração</h3></td>
-    <td><img src="../static/midia/gestao.png" width="180" height="100"><h3>Gestão</h3></td>    
+    <tr>
+        <form action="jogos_digitais.html" method="POST">       
+            <td><button id="botao5"><h3 id='letrapadrao'>Jogos Digitais</button></h3></td></form>
+        <form action="redes_computadores.html" method="POST"> 
+            <td><button id="botao5"><h3 id='letrapadrao'>Redes de Computadores</button></h3></td></form>
+        <form action="gestao_detalhe.html" method="POST">
+            <td><button id="botao5"><h3 id='letrapadrao'>Gestão de Tecnologia da Informação</button></h3></td> </form>  
     </tr>
     
     <tr>
-    <td><img src="../static/midia/processos_gerenciais.png" width="100" height="100"><h3>Processos Gerenciais</h3></td>
-    <td><img src="../static/midia/redes.png" width="100" height="100"><h3>Redes de Computadores</h3></td>
+    
     </tr> 
             
         </table>
@@ -48,6 +75,6 @@
        <li><a href="index.html" target="">voltar a Home</li>
     </ul>
 
-   
+</table>
 </body>
 </html>

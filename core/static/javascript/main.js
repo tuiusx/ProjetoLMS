@@ -26,3 +26,12 @@ muda[0].onclick = function(){
         imagem[0].setAttribute('src','imagens/gif2.gif');
     }
 }
+
+function mouseDown() {
+    document.getElementsByClassName("botaoapertar").style.color = "red";
+}
+
+function mouseUp() {
+    document.getElementsByClassName("botaoapertar").style.color = "green";
+}
+
