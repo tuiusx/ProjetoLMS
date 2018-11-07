@@ -7,6 +7,8 @@ body{
 }
 
 
+
+
 /*imagem em baixo do texto*/
 .img1{
     position: relative;
@@ -298,7 +300,14 @@ td, th {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 .cord1{
     margin-left: 800px;
     margin-top: -500px;
+=======
+.corpo{
+    width: 960px;
+    margin: auto;
+
+>>>>>>> 146e7692f7b7f38b6e200bdb270a44eb4212bf27
 }
