@@ -299,3 +299,9 @@ td, th {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
 }
+
+.corpo{
+    width: 960px;
+    margin: auto;
+
+}
