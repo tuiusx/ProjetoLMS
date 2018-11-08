@@ -18,7 +18,7 @@ from django.urls import path
 from core.views import *
 
 urlpatterns = [
-    path('', index),
+    path('index.html', index),
     path('detalhe_curso.html', detalhe_curso),
     path('disciplina.html', disciplina),
     path('listadecurso.html', listadecurso),
