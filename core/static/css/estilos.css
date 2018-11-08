@@ -301,7 +301,27 @@ td, th {
 }
 
 .cord1{
-    margin-left: 800px;
+    margin-left: 700px;
     margin-top: -500px;
+}
+.cord2{
+    margin-left: 150px;
+}
 
+#mercado{
+    width: 600px;
+    height:250px;
+    margin-left:0px; 
+    background-color: black;
+    }
+#aluno1{
+    width: 600px;
+    height:250px;
+    margin-left:700px; 
+    margin-top: -270px;
+    background-color: black;
+}
+.bot{
+    margin-left: 350px;
 
+}

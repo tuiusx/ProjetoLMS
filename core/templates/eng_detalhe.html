@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Audiowide|Fjalla+One|Monoton" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/css/estilos.css">
+    <link rel="shortcut icon" href="midia/favicon.ico"/>
+    <title>Engenharia Computação</title>
+</head>
+<body>
+    <a href="index.html" target=""><img src="../static/midia/faculdade-impacta.png" style="float:left;" width="20%" height="20%"><br><br><br><br><br><br></a>
+    <br>
+       <style type="text/css">
+        .escondida {
+            display:none;
+        }
+        </style>
+
+        <script type="text/javascript">
+        function abrir() {
+            var main = document.getElementById("central");
+            var iten = main.getElementsByTagName("input");
+            if (iten) {
+                for (var i=0;i<iten.length;i++) {
+                    iten[i].onclick = function() {
+                        var el = document.getElementById(this.id.substr(7,7));
+                        if (el.style.display == "block")
+                            el.style.display = "none";
+                        else
+                            el.style.display = "block";
+                    }
+                }
+            }
+        }
+        window.onload=abrir;
+        </script>
+
+
+        <div id="central">
+            <div class="bot">
+            <input type="button" value="1º Semestre" style="color: white" id="receita1">
+            <input type="button" value="2º Semestre" style="color: white" id="receita2">
+            <input type="button" value="3º Semestre" style="color: white" id="receita3">
+            <input type="button" value="4º Semestre" style="color: white" id="receita4">
+            <input type="button" value="5º Semestre" style="color: white" id="receita5">
+            <input type="button" value="6º Semestre" style="color: white" id="receita6">
+            <input type="button" value="7º Semestre" style="color: white" id="receita7">
+            <input type="button" value="8º Semestre" style="color: white" id="receita8">
+            </div>
+        
+        <div id="1" class="escondida"><fieldset  class="bord1">
+        
+            <strong><div class="conteudo-semestre">
+            <h2>1º Semestre</h2>
+            <p>Circuitos Digitais e Eletrônicos: 80 horas</p>
+            <p>Comunicação e Expressão: 80 horas</p>
+            <p>Instrodução à Internet das Coisas -IOT: 80 Horas</p>
+            <p>Linguagem de Programação I: 80 horas</p>
+            <p>Lógica de Programação: 80 horas</p>
+            <p>Matemática para Engenharia: 80 horas</p>
+            
+            <p>Subtotal: 480 horas</p>
+            <br></strong>
+        
+        </fieldset></div>
+            <div id="2" class="escondida"><fieldset  class="bord1">
+            <h2>2º Semestre</h2>
+            <strong>                   
+            <p>Ambiente de Desenvolvimento e Operação - DevOps: 80 horas</p>
+            <p>Banco de Dados: 80 horas</p>
+            <p>Conceitos e Aplicações de Cálculo: 80 horas</p>
+            <p>Engenharia de Software: 80 horas</p>
+            <p>Língua Brasileira de Sinais - LIBRAS (Optativa): 40 horas</p>
+            <p>Linguagem de Programação II: 80 horas</p>
+            <p>Sociedade e Sustentabilidade (Optativa): 40 horas</p>
+            <br>
+            <p>Subtotal:440 horas</p> 
+            </strong></fieldset></div>
+
+            <div id="3" class="escondida"><fieldset  class="bord1">
+            <h2>3º Semestre</h2>
+            <strong><p>Análise e Modelagem de Sistemas: 80 horas</p>
+            <p>Ciências do Ambiente: 40 horas</p>
+            <p>Desenvolvimento de Aplicações Distribuídas: 80 horas</p>
+            <p>Estrutura de Dados: 80 horas</p>
+            <p>Engenharia de Requisitos: 80 horas</p>
+            <p>Modelagem e Simulação de Sistemas Físicos: 80 horas</p>
+            <br>
+            <p>Subtotal: 440 horas</p> 
+            </strong></fieldset></div>
+
+            <div id="4" class="escondida"><fieldset  class="bord1">
+            <h2>4º Semestre</h2>
+            <strong>
+            <p>Circuitos Elétricos: 80 horas</p>
+            <p>Desenvolvimento para Dispositivos Móveis: 80 horas</p>
+            <p>Desenvolvimento para Internet das Coisas - IoT: 80 horas</p>
+            <p>Eletricidade e Magnetismo Aplicados: 80 horas</p>
+            <p>Matemática Discreta: 80 horas</p>
+            <p>Otimização de Sistemas Lineares: 40 horas</p>
+            <br>
+            <p>Subtotal: 440 horas</p> 
+            </strong></fieldset></div>
+
+            <div id="5" class="escondida"><fieldset  class="bord1">
+            <h2>5º Semestre</h2>
+            <strong><p>Análise Exploratória de Dados: horas</p>
+             <p>Análise Numérica: 40 horas</p>
+             <p>Arquitetura de Computadores e Sistemas Operacionais: 80 horas</p>
+             <p>Eletrônica Analógica e Digital: 80 horas</p>
+             <p>Linguagens Formais e Autômatos: 80 horas</p>
+             <p>Processamento Digital de Sinais: 80 horas</p>
+             <br>
+             <p>Subtotal: 440 horas</p> 
+
+            </strong></fieldset></div>
+            <div id="6" class="escondida"><fieldset  class="bord1">
+            <h2>6º Semestre</h2>
+            <strong><p>Análise de Viabilidade de Projetos: 80 horas</p>
+            <p>Compiladores: 80 horas</p>
+            <p>Controle e Automação: 80 horas</p>
+            <p>Gestão Ágil de Projetos: 40 horas</p>
+            <p>Inteligência Artificial: 80 horas</p>
+            <p>Sistemas Distribuídos e Cloud Computing: 80 horas</p>
+            <br>
+            <p>Subtotal: 440 horas</p> 
+            </strong></fieldset></div>
+
+            <div id="7" class="escondida"><fieldset  class="bord1">
+            <h2>7º Semestre</h2>
+            <strong><p>Economia para Engenharia: 40 horas</p>
+            <p>Robôs Móveis Inteligentes: 80 horas</p>
+            <p>Segurança Cibernética: 80 horas</p>
+            <p>Startup e Inovação: 80 horas</p>
+            <p>Trabalho de Conclusão de Curso 1 - TCC1: 80 horas</p>
+            <p>UX e Design Thinking: 80 horas</p>
+            <br>
+            <p>Subtotal: 440 horas</p>
+            </strong></fieldset></div>
+
+            <div id="8" class="escondida"><fieldset  class="bord1">
+            <h2>8º Semestre</h2>
+            <strong><p>Indústria 4.0: 80 horas</p>
+            <p>Legislação e Ética: 40 horas</p>
+            <p>Projeto de Sistemas Embarcados: 80 horas</p>
+            <p>Sistemas Tolerantes a Falhas: 80 horas</p>
+            <p>Tópicos Especiais em Tendências Tecnológicas: 80 horas</p>
+            <p>Trabalho de Conclusão de Curso 2 - TCC2: 80 horas</p>
+            <br>
+            <p>Subtotal: 440 horas</p>  
+
+            </strong></fieldset></div>
+            </div><br><br>
+            <div class="cord2">
+            <h1 id="azul"class="cord">COORDENADOR</h1><br>
+            <img class="imgC" src="../static/midia/tim1.png">>
+            <div class="cord1">
+            <p><h1>Bruno Luis Soares de Lima</h1>
+            <h3>Coordenador(a) do curso de Engenharia da Computação</h3>
+            <h4>Mestre em Administração de Empresas<br><br>
+            toramento da geração, transmissão e distribuição <br>
+            de energia Atuou em projetos de clientes como <br>
+            AES Eletropaulo, Petrobras, Companhia de Transmissão<br>
+            de Energia Elétrica Paulista (CTEEP), Companhia <br>
+            Energética de São Paulo (CESP) e Energias de <br> 
+            Portugal (EDP) 12 anos de experiência como professor<br>
+            de cursos superiores área de Engenharia, Tecnologia<br> e Sistemas de Informação</h4>
+            </p>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <fieldset id="mercado" >
+            <h4>MERCADO DE TRABALHO</h4>
+            <p>O mercado de trabalho tende a ter uma demanda cada vez maior pelo profissional formado em Engenharia da Computação devido ao aumento do nível de automatização e informatização da sociedade moderna.Com o crescente desenvolvimento de sistemas computacionais compostos por hardware e software, faz-se necessário um profissional capaz de desenvolver sistemas de grande complexidade envolvendo programação, projeto e desenvolvimento de hardware.Entre as áreas de maior contratação, encontra-se a de Big Data, mas empresas de diferentes setores buscam por engenheiros da computação para desenvolver sistemas digitais, computadorizados e robôs.</p>
+            </fieldset>
+
+            <fieldset id="aluno1" >
+            <h4>PERFIL DO ALUNO</h4>
+            <p>
+            O aluno deve gostar de matemática, física e tecnologia, essenciais para o entendimento do curso, já que ele irá lidar com a Indústria 4.0 e a Revolução Digital e, assim, com as demandas de um mercado em transformação e constante evolução. O aluno ainda será estimulado para o desenvolvimento de novas tecnologias na identificação e resolução de problemas, considerando diversos aspectos da sociedade. Para isso, é necessário ter um perfil inovador e que está sempre em busca de mudanças e melhorias.</p>
+            </fieldset>
+            <br><br>
+            <li><a href="index.html" target="">Página Inicial</a></li><br><br><br>
+            <li><a href="listadecurso.html" target="">Voltar a Lista de Cursos</a></li>
+
+</body>
+</html>
